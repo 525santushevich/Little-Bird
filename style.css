@@ -1,0 +1,31 @@
+body {
+  background-color: rgb(153, 133, 118);
+}
+
+.title {
+  font-family: "Sugar & Spice", sans-serif;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 3%;
+}
+@font-face {
+  font-family: "Sugar & Spice";
+  src: url("/font/Sugar & Spice demo.ttf") format("truetype");
+}
+
+h1 {
+  font-size: 12rem;
+  color: white;
+  text-shadow: 2px 2px 2px rgb(122, 107, 84);
+}
+
+.caption {
+  margin: 0 auto;
+  text-align: center;
+}
+
+p {
+  font-size: 150%;
+  color: white;
+  text-shadow: 2px 2px 2px rgb(122, 107, 84);
+}
