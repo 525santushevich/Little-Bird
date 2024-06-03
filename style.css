@@ -29,3 +29,22 @@ p {
   color: white;
   text-shadow: 2px 2px 2px rgb(122, 107, 84);
 }
+
+.hero {
+  position: relative;
+  height: 75vh; 
+  background-image: url('images/maths.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5); 
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
